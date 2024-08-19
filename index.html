@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Ensure proper scaling on different devices -->
+
+    <!-- Favicon for the site -->
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+
+    <!-- Linking the CSS stylesheet -->
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@200..800&family=Red+Hat+Display:ital,wght@0,500;1,500&display=swap"
+      rel="stylesheet"
+    />
+
+    <!-- Page title -->
+    <title>Frontend Mentor | Article preview component</title>
+  </head>
+  <body>
+    <main>
+      <div id="container">
+        <!-- Section for the image -->
+        <section id="image">
+          <img src="./images/drawers.jpg" alt="" />
+        </section>
+
+        <!-- Section for the content -->
+        <section id="content">
+          <!-- Heading section -->
+          <div class="heading">
+            <h1>
+              Shift the overall look and feel by adding these wonderful touches
+              to furniture in your home
+            </h1>
+          </div>
+
+          <!-- Paragraph and share icons section -->
+          <div class="toggle">
+            <div class="paragraph">
+              <p>
+                Ever been in a room and felt like something was missing? Perhaps
+                it felt slightly bare and uninviting. I’ve got some simple tips
+                to help you make any room feel complete.
+              </p>
+            </div>
+
+            <!-- Share icons displayed on hover -->
+            <div class="toggle-share">
+              <div class="share-text">
+                <p>SHARE</p>
+              </div>
+              <div class="icon-facebook">
+                <img src="./images/icon-facebook.svg" alt="facebook icon" />
+              </div>
+              <div class="icon-twitter">
+                <img src="./images/icon-twitter.svg" alt="twitter icon" />
+              </div>
+              <div class="icon-pinterest">
+                <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Profile section -->
+          <div class="profile">
+            <div class="image-profile">
+              <img src="./images/avatar-michelle.jpg" alt="profile image" />
+            </div>
+            <div class="name-and-date">
+              <p class="name">Michelle Appleton</p>
+              <p class="date">28 Jun 2020</p>
+            </div>
+
+            <!-- Share button -->
+            <div class="share-btn">
+              <div class="btn">
+                <img src="./images/icon-share.svg" alt="Share-button" />
+              </div>
+            </div>
+          </div>
+
+          <!-- Mobile version of the share section -->
+          <div class="toggle-share-mobile">
+            <div class="share-text mobile">
+              <p>SHARE</p>
+            </div>
+            <div class="mobile">
+              <img src="./images/icon-facebook.svg" alt="facebook icon" />
+            </div>
+            <div class="mobile">
+              <img src="./images/icon-twitter.svg" alt="twitter icon" />
+            </div>
+            <div class="mobile">
+              <img src="./images/icon-pinterest.svg" alt="pinterest icon" />
+            </div>
+            <div class="btn-mobile">
+              <img src="./images/icon-share.svg" alt="Share-button" />
+            </div>
+          </div>
+        </section>
+      </div>
+    </main>
+
+    <!-- JavaScript file -->
+    <script src="index.js"></script>
+  </body>
+</html>
